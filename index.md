@@ -73,6 +73,10 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
   -->
+  
+<h3 id="where">Audience</h3>
+The workshop is aimed at postgraduate students and research staff at the University of Manchester. You don't need to have any previous knowledge of the tools that will be presented at the workshop.
+
 <h3 id="where">When & Where</h3>
 {% assign inperson = "false" %}
 {% for loc in page.locations %}
