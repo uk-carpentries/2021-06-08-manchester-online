@@ -162,8 +162,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
   {% assign startdate = {{page.startdate}} | date: '%s' %}
   {% assign day1 =  startdate | date_to_long_string %}
   {% assign day2 =  startdate | plus: 86400 | date_to_long_string %}
-  {% assign day3 =  startdate | plus: 86400*2 | date_to_long_string %}
-  {% assign day4 =  startdate | plus: 86400*3 | date_to_long_string %}
+  {% assign day3 =  startdate | plus: 86400 | plus: 86400 | date_to_long_string %}
+  {% assign day4 =  startdate | plus: 86400 | plus: 86400 | plus: 86400 | date_to_long_string %}
 
   <div class="col-md-6">
     <h3>Day 1, {{day1}}, {{page.humantime}}</h3>
