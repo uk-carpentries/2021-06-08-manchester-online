@@ -57,44 +57,13 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 
 <h2 id="general">General Information</h2>
-
-<!--
-  INTRODUCTION
-
-  Edit the general explanatory paragraph below if you want to change
-  the pitch.
--->
-
-<p>
-  The course is aimed at everyone who is
-  interested in becoming a better teacher. In particular, this training
-  is aimed at those who want to become <a href="{{ site.swc_site }}">Software Carpentry</a>,
-  <a href="{{ site.lc_site }}">Library Carpentry</a>, and <a href="{{ site.dc_site }}">Data Carpentry</a>
-  Instructors. You don't currently have to be an instructor or a
-  teacher to attend this workshop, but you do need to be willing and
-  committed to becoming one and to improving your teaching techniques.
-</p>
-
-<p>
-  <a href="{{ site.swc_site }}">Software Carpentry</a>,
-  <a href="{{ site.dc_site }}">Data Carpentry</a>, and 
-  <a href="{{ site.lc_site }}">Library Carpentry</a>'s mission is to
-  help scientists, researchers, and librarians get more research done in less time
-  and with less pain by teaching them basic lab skills for scientific
-  computing.  This hands-on two-day workshop covers the basics of
-  educational psychology and instructional design, and looks at how to
-  use these ideas in both intensive workshops and regular classes.
-</p>
-<p>
-  The workshop is a mix of lectures and hands-on lessons where you
-  practice giving a short lesson using approaches learned and
-  implement some of the teaching techniques which we will discuss.
-  This is training for teaching, not technical training; you do not
-  need any particular technical background, and we will not be
-  teaching that. This workshop is based on the constantly revised and
-  updated
- <a href="{{ site.training_site }}">curriculum</a>.
-</p>
+{% if site.carpentry == "swc" %}
+{% include swc/intro.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/intro.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/intro.html %}
+{% endif %}
 
 <!--
   LOCATION
@@ -104,7 +73,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
   -->
-<h3 id="where">Where</h3>
+<h3 id="where">When & Where</h3>
 {% assign inperson = "false" %}
 {% for loc in page.locations %}
 
@@ -197,22 +166,6 @@ for more information.
 </p>
 
 <hr/>
-
-<h2 id="general">General Information</h2>
-
-{% comment %}
-INTRODUCTION
-
-Edit the general explanatory paragraph below if you want to change
-the pitch.
-{% endcomment %}
-{% if site.carpentry == "swc" %}
-{% include swc/intro.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/intro.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/intro.html %}
-{% endif %}
 
 {% comment %}
 AUDIENCE
