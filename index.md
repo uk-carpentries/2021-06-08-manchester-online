@@ -67,7 +67,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 
 <p id="accessibility">
   We are committed to providing a positive and accessible learning environment for all. Please
-  notify the hosts in advance of the workshop if you require any accommodations or if there is
+  notify the <a href="mailto:{{page.email}}">hosts</a> in advance of the workshop if you require any accommodations or if there is
   anything we can do to make this workshop more accessible to you.
 </p>
   
