@@ -159,7 +159,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 
 <div class="row">
 <!--  <div style="padding-left: 15px;">Before the workshop: please fill in the <a href="{{ site.pre_survey }}{{ site.github.project_title }}">pre-workshop survey</a></div>-->
-  {% assign startdate = {{page.humandate}} | date: '%s' %}
+  {% assign startdate = {{page.humandate}} | date %}
   <div class="col-md-6">
     <h3>Day 1, {{startdate}}, {{page.humantime}}</h3>
     <table class="table table-striped">
@@ -167,7 +167,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2, 9 June 2021, {{page.humantime}}</h3>
+    <h3>Day 2, {{startdate | add 1}}, {{page.humantime}}</h3>
     <table class="table table-striped">
       <tr> <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Building Programs with Python - Part 1</a></td> </tr>
     </table>
@@ -175,13 +175,13 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 </div>
 <div class="row">
     <div class="col-md-6">
-    <h3>Day 3, 10 June 2021, {{page.humantime}}</h3>
+    <h3>Day 3, {{startdate}}, {{page.humantime}}</h3>
     <table class="table table-striped">
       <tr> <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Building Programs with Python - Part 2</a></td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-      <h3>Day 4, 11 June 2021, {{page.humantime}}</h3>
+      <h3>Day 4, {{startdate}}, {{page.humantime}}</h3>
       <table class="table table-striped">
         <tr> <td><a href="http://swcarpentry.github.io/git-novice" target="_blank">Version Control with Git</a></td> </tr>
       </table>
