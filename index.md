@@ -83,7 +83,7 @@ via EventBrite</a>. You will need a special code to register - please get in tou
 <a href='mailto:{{page.email}}'>Aleksandra Nenadic</a> using your Manchester email address.
 
 <h3>Requirements</h3>
-Participants must have a laptop/PC with a Mac, Linux, or Windows operating system (rather than a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few [specific software packages](/#setup) installed (listed below).
+Participants must have a laptop/PC with a Mac, Linux, or Windows operating system (rather than a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few [specific software packages]({{site.baseurl}}/#setup) installed (listed below).
 
 <h3>Code of Conduct</h3>
 
