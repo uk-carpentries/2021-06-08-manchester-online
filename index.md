@@ -78,30 +78,9 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 The workshop is aimed at the University of Manchester's postgraduate students and research and other staff who develop software or analyse data as part of their work. You don't need to have any previous knowledge of the tools that will be presented at the workshop - this is an introductory-level course.
 
 <h3 id="where">When & Where</h3>
-{% assign inperson = "false" %}
-{% for loc in page.locations %}
+The workshop will be run over 4 half-days, from {{ page.humandate }}, {{ page.humantime }}.
 
-{% capture online %}{{ loc.venue | downcase }}{% endcapture %}
-
-{% comment %}
-<h4>{{ loc.venue }}</h4>
-{% endcomment %}
-
-{% if online == "online" %}
-
-This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install Zoom client</a> to connect with your instructors. The link to use for this event will be announced via email to registered participants. <!--is <{{ loc.address }}>-->
-
-{% else %}
-{% assign inperson = "true" %}
-{{ loc.address }} {% if loc.latlng %} Get directions with
-    <a href="//www.openstreetmap.org/?mlat={{loc.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-    or
-    <a href="//maps.google.com/maps?q={{loc.latlng}}">Google Maps</a>. {% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% if inperson == "true" %}
+This is an online event. We will meet using the online videoconference software Zoom. You will need to [download and install Zoom client](https://zoom.us/download) to connect with your instructors. The link to use for this event will be announced via email to registered participants.
 
 <h4 id="accessibility">Accessibility</h4>
 
