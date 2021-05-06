@@ -159,13 +159,14 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 
 <div class="row">
 <!--  <div style="padding-left: 15px;">Before the workshop: please fill in the <a href="{{ site.pre_survey }}{{ site.github.project_title }}">pre-workshop survey</a></div>-->
-  {% assign startdate = {{page.humandate}} | date: '%s' %}
-  {% assign day2 =  startdate | plus: 86400 | date: "%Y-%m-%d" %}
-  {% assign day3 =  startdate | plus: 86400 | date: "%Y-%m-%d" %}
-  {% assign day4 =  startdate | plus: 86400 | date: "%Y-%m-%d" %}
+  {% assign startdate = {{page.startdate}} | date: '%s' %}
+  {% assign day1 =  startdate | date_to_long_string %}
+  {% assign day2 =  startdate | plus: 86400 | date_to_long_string %}
+  {% assign day3 =  startdate | plus: 86400*2 | date_to_long_string %}
+  {% assign day4 =  startdate | plus: 86400*3 | date_to_long_string %}
 
   <div class="col-md-6">
-    <h3>Day 1, {{page.humandate}}, {{page.humantime}}</h3>
+    <h3>Day 1, {{day1}}, {{page.humantime}}</h3>
     <table class="table table-striped">
       <tr> <td><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></td> </tr>
     </table>
