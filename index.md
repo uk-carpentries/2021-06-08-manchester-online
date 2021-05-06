@@ -156,13 +156,35 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
+<div class="row">
+<!--  <div style="padding-left: 15px;">Before the workshop: please fill in the <a href="{{ site.pre_survey }}{{ site.github.project_title }}">pre-workshop survey</a></div>-->
+  <div class="col-md-6">
+    <h3>Day 1, 8 June 2021, {{page.humantime}}</h3>
+    <table class="table table-striped">
+      <tr> <td><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 2, 9 June 2021, {{page.humantime}}</h3>
+    <table class="table table-striped">
+      <tr> <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Building Programs with Python - Part 1</a></td> </tr>
+    </table>
+  </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+    <h3>Day 3, 10 June 2021, {{page.humantime}}</h3>
+    <table class="table table-striped">
+      <tr> <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Building Programs with Python - Part 2</a></td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+      <h3>Day 4, 11 June 2021, {{page.humantime}}</h3>
+      <table class="table table-striped">
+        <tr> <td><a href="http://swcarpentry.github.io/git-novice" target="_blank">Version Control with Git</a></td> </tr>
+      </table>
+  </div>
+</div>
 
 <hr/>
 
