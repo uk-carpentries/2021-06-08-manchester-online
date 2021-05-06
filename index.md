@@ -11,8 +11,8 @@ latitude: "45"        # decimal latitude of workshop venue (use https://www.latl
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "08 - 11 June 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:30 - 12:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2021-03-01      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2021-03-05        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2021-06-08      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2021-06-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: [] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Aleksandra Nenadic"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["a.nenadic@manchester.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -75,7 +75,6 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-
 
 <h2 id="general">General Information</h2>
 
@@ -154,7 +153,7 @@ This block displays the date and links to Google Calendar.
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
-  {{page.humandate}}.
+  {{page.humandate}}, {{page.humantime}}.
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
