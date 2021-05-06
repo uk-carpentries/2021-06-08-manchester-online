@@ -204,18 +204,6 @@ please preview your site before committing, and make sure to run
 <hr/>
 {% endcomment %}
 
-{% comment %}
-SETUP
-
-Delete irrelevant sections from the setup instructions.  Each
-section is inside a 'div' without any classes to make the beginning
-and end easier to find.
-
-This is the other place where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
-
 <h2 id="setup">Setup</h2>
 <h3>Installation instructions</h3>
 <p>
@@ -237,19 +225,6 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-{% comment %}
-For online workshops, the section below provides:
-- installation instructions for the Zoom client
-- recommendations for setting up Learners' workspace so they can follow along
-  the instructions and the videoconferencing
-
-If you do not use Zoom for your online workshop, edit the file
-`_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instrucctions.
-{% endcomment %}
-{% if online != "false" %}
-{% include install_instructions/videoconferencing.html %}
-{% endif %}
 
 {% comment %}
 These are the installation instructions for the tools used
