@@ -70,8 +70,7 @@ This Software Carpentry workshop is organised jointly by colleagues from
   <a href="https://www.methods.manchester.ac.uk/" target="_blank">Methods@Manchester, 
     <a href="https://www.library.manchester.ac.uk/" target="_blank">the University of Manchester Library</a>, 
     <a href="https://www.itservices.manchester.ac.uk/research/" target="_blank">the University of Manchester Research IT</a>, 
-    and Manchester branch of <a href="https://software.ac.uk/" target="_blank">the Software Sustainability Institute</a>.
-</p>
+    and Manchester branch of <a href="https://software.ac.uk/" target="_blank">the Software Sustainability Institute</a>.</p>
 
 <p id="accessibility">
   We are committed to providing a positive and accessible learning environment for all. Please
