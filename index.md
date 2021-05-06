@@ -66,7 +66,11 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 
 <p id="organisers">
-This Software Carpentry workshop is organised jointly by colleagues from [Methods@Manchester](https://www.methods.manchester.ac.uk/), [the University of Manchester Library](https://www.library.manchester.ac.uk/), [the University of Manchester Research IT](https://www.itservices.manchester.ac.uk/research/), and Manchester branch of [the Software Sustainability Institute](https://software.ac.uk/).
+This Software Carpentry workshop is organised jointly by colleagues from 
+  <a href="https://www.methods.manchester.ac.uk/" target="_blank">Methods@Manchester, 
+    <a href="https://www.library.manchester.ac.uk/" target="_blank">the University of Manchester Library</a>, 
+    <a href="https://www.itservices.manchester.ac.uk/research/" target="_blank">the University of Manchester Research IT</a>, 
+    and Manchester branch of <a href="https://software.ac.uk/" target="_blank">the Software Sustainability Institute</a>.
 </p>
 
 <p id="accessibility">
