@@ -57,6 +57,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 
 <h2 id="general">General Information</h2>
+
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
