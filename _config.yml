@@ -43,7 +43,7 @@ flavor: "python"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Software Carpentry Workshop for the UK Acoustics Network (UKAN) Community"
+title: "Software Carpentry Workshop - Carpentries@Manchester"
 
 
 #------------------------------------------------------------
@@ -56,7 +56,7 @@ kind: "workshop"
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
 # Please don't change it: <USERNAME>/<PROJECT> is correct.
-repository: softwaresaved/2021-03-01-ssi-online
+repository: uk-carpentries/2021-06-08-manchester-online
 
 # Email address, no mailto:
 # (Don't change this -- the contact address for your workshop will be set
