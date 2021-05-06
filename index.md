@@ -78,7 +78,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 The workshop is aimed at the University of Manchester's postgraduate students and research and other staff who develop software or analyse data as part of their work. You don't need to have any previous knowledge of the tools that will be presented at the workshop - this is an introductory-level course.
 
 <h3 id="where">When & Where</h3>
-The workshop will be run over 4 half-days, from {{ page.humandate }}, {{ page.humantime }}.
+The workshop will be run over 4 half-days, from {{page.humandate}}, {{page.humantime}}.
 
 This is an online event. We will meet using the online videoconference software Zoom. You will need to [download and install Zoom client](https://zoom.us/download) to connect with your instructors. The link to use for this event will be announced via email to registered participants.
 
