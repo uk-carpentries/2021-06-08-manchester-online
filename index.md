@@ -80,7 +80,7 @@ The workshop will be run online over 4 half-days, from {{page.humandate}}, {{pag
 
 <h3>Registration</h3>
 Registration is free <a href="https://www.eventbrite.com/e/{{page.eventbrite}}" target="_blank">
-via EventBrite</a>. You will need a special code to register - please get in touch with 
+via EventBrite</a>. You will need a special code to register - please get in touch with g
 <a href='mailto:{{page.email}}'>Aleksandra Nenadic</a> using your Manchester email address.
 
 <h3>Requirements</h3>
@@ -130,7 +130,7 @@ available at https://codimd.carpentries.org
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code during the workshop.
 </p>
 <hr/>
 {% endif %}
