@@ -66,15 +66,11 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% include lc/intro.html %}
 {% endif %}
 
-<p>
 This Software Carpentry workshop is organised jointly by colleagues from <a href="https://www.methods.manchester.ac.uk/" target="_blank">Methods@Manchester, <a href="https://www.library.manchester.ac.uk/" target="_blank">the University of Manchester Library</a>, <a href="https://www.itservices.manchester.ac.uk/research/" target="_blank">the University of Manchester Research IT</a>, and Manchester branch of <a href="https://software.ac.uk/" target="_blank">the Software Sustainability Institute</a>.
-</p>
 
-<p>
-  We are committed to providing a positive and accessible learning environment for all. Please
+We are committed to providing a positive and accessible learning environment for all. Please
   notify the <a href="mailto:{{page.email}}">hosts</a> in advance of the workshop if you require any accommodations or if there is
   anything we can do to make this workshop more accessible to you.
-</p>
   
 <h3 id="audience">Audience</h3>
 The workshop is aimed at the University of Manchester's postgraduate students and research and other staff who develop software or deal with or analyse data as part of their work. You don't need to have any previous knowledge of the tools that will be presented at the workshop - this is an introductory-level course.
