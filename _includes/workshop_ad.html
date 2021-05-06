@@ -26,7 +26,10 @@
           <p>Online</p>
           {% endif %}
           <p>{{page.humandate}}</p>
-          <p>{% if page.humantime %}{{page.humantime}}{% endif %}{% if page.timezone %},{{page.timezone}}{% endif %}{% endif %}</p>
+          <p>{% if page.humantime %}
+            {{page.humantime}}{% endif %}
+            {% if page.timezone %},{{page.timezone}}{% endif %}
+          </p>
         </div>
         <div class="col-md-6">
           <p>
