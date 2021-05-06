@@ -100,8 +100,6 @@ you (e.g. sign-language interpreters, lactation facilities) please
 please get in touch (using contact details below) and we will
 attempt to provide them.
 
-{% endif %}
-
 <h3>Registration</h3>
 Registration is free <a href="https://www.eventbrite.com/e/{{page.eventbrite}}" target="_blank">
 via EventBrite</a>. You will need a special code to register - please get in touch with 
