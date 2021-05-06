@@ -77,7 +77,7 @@ We are committed to providing a positive and accessible learning environment for
 The workshop is aimed at the University of Manchester's postgraduate students and research and other staff who develop software or deal with or analyse data as part of their work. You don't need to have any previous knowledge of the tools that will be presented at the workshop - this is an introductory-level course.
 
 <h3 id="where">When & Where</h3>
-The workshop will be run online over 4 half-days, from {{page.humandate}}, {{page.humantime}}. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download" target="_blank">download and install Zoom client</a> to connect with your instructors. The Zoom link to use for this event will be announced via email to registered participants.
+The workshop will be run online over 4 half-days, from {{page.humandate}}, {{page.humantime}} {{page.timezone}}. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download" target="_blank">download and install Zoom client</a> to connect with your instructors. The Zoom link to use for this event will be announced via email to registered participants.
 
 <h3>Registration</h3>
 Registration is free <a href="https://www.eventbrite.com/e/{{page.eventbrite}}" target="_blank">
