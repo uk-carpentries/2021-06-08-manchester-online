@@ -65,14 +65,11 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% include lc/intro.html %}
 {% endif %}
 
-<!--
-  LOCATION
-
-  This block displays the address and links to maps showing directions
-  if the latitude and longitude of the workshop have been set.  You
-  can use http://itouchmap.com/latlong.html to find the lat/long of an
-  address.
-  -->
+<p id="accessibility">
+  We are committed to providing a positive and accessible learning environment for all. Please
+  notify the hosts in advance of the workshop if you require any accommodations or if there is
+  anything we can do to make this workshop more accessible to you.
+</p>
   
 <h3 id="where">Audience</h3>
 The workshop is aimed at the University of Manchester's postgraduate students and research and other staff who develop software or analyse data as part of their work. You don't need to have any previous knowledge of the tools that will be presented at the workshop - this is an introductory-level course.
@@ -81,24 +78,6 @@ The workshop is aimed at the University of Manchester's postgraduate students an
 The workshop will be run over 4 half-days, from {{page.humandate}}, {{page.humantime}}.
 
 This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download" target="_blank">download and install Zoom client</a> to connect with your instructors. The link to use for this event will be announced via email to registered participants.
-
-<h4 id="accessibility">Accessibility</h4>
-
-We are committed to making this workshop
-accessible to everybody.
-The workshop organisers have checked that:
-
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-
-Materials will be provided in advance of the workshop and
-large-print handouts are available if needed by notifying the
-organizers in advance.  If we can help making learning easier for
-you (e.g. sign-language interpreters, lactation facilities) please
-please get in touch (using contact details below) and we will
-attempt to provide them.
 
 <h3>Registration</h3>
 Registration is free <a href="https://www.eventbrite.com/e/{{page.eventbrite}}" target="_blank">
@@ -212,17 +191,6 @@ Modify the block below if there are any special requirements.
 </p>
 
 {% comment %}
-ACCESSIBILITY
-
-Modify the block below if there are any barriers to accessibility or
-special instructions.
-{% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong>
-  We are committed to providing a positive and accessible learning environment for all. Please
-  notify the hosts in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
-</p>
 
 {% comment %}
 CONTACT EMAIL ADDRESS
