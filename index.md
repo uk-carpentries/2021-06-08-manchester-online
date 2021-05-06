@@ -122,9 +122,7 @@ attempt to provide them.
 <h3>Registration</h3>
 Registration is free <a href="https://www.eventbrite.com/e/{{page.eventbrite}}" target="_blank">
 via EventBrite</a>. You will need a special code to register - please get in touch with 
-<a href='mailto:{{contact}}'>Aleksandra Nenadic</a> to apply for the training. Priority will be given to participants 
-from UK institutions that __do not__ have a partnership with The Carpentries, so cannot get onto Instructor Training 
-as part of their institutional membership. 
+<a href='mailto:{{page.email}}'>Aleksandra Nenadic</a>.
 
 <h3>Requirements</h3>
 
@@ -148,9 +146,9 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 <h3 id="contact">Contact</h3>
 <p>
 Please email
-{% if page.contact %}
-  {% for contact in page.contact %}
-    {% if forloop.last and page.contact.size > 1 %}
+{% if page.email %}
+  {% for contact in page.email %}
+    {% if forloop.last and page.email.size > 1 %}
       or
     {% else %}
       {% unless forloop.first %}
