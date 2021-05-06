@@ -126,7 +126,7 @@ attempt to provide them.
 <h3>Registration</h3>
 Registration is free <a href="https://www.eventbrite.com/e/{{page.eventbrite}}" target="_blank">
 via EventBrite</a>. You will need a special code to register - please get in touch with 
-<a href='mailto:{{page.email}}'>Aleksandra Nenadic</a>.
+<a href='mailto:{{page.email}}'>Aleksandra Nenadic</a> using your Manchester email address.
 
 <h3>Requirements</h3>
 
