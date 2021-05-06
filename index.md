@@ -109,22 +109,12 @@ via EventBrite</a>. You will need a special code to register - please get in tou
 
 <h3>Requirements</h3>
 
-Participants will need a laptop to attend the workshop (rather than a tablet) as they will be 
-asked to share their screen and do a short teaching or live coding demonstration during the workshop exercises.
-
-Please note that after this course is over, you will be asked to do
-three short follow-up exercises online in order to finish qualifying
-as an instructor: the details are available at
-<a href="{{ site.training_site }}/checkout/">{{ site.training_site }}/checkout/</a>.
-If you have any questions about the workshop, the reading material,
-or anything else, please get in touch or ask at the workshop.
-
+Participants will need a laptop to attend the workshop (rather than a tablet).
 
 <h3>Code of Conduct</h3>
 
 All participants (including instructors, helpers and observers) are required to abide by The Carpentries <a href="{{
 site.swc_site }}/conduct/">Code of Conduct</a>.
-
 
 <h3 id="contact">Contact</h3>
 <p>
