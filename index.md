@@ -75,7 +75,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
   -->
   
 <h3 id="where">Audience</h3>
-The workshop is aimed at postgraduate students and research staff at the University of Manchester. You don't need to have any previous knowledge of the tools that will be presented at the workshop.
+The workshop is aimed at the University of Manchester's postgraduate students and research and other staff who develop software or analyse data as part of their work. You don't need to have any previous knowledge of the tools that will be presented at the workshop - this is an introductory-level course.
 
 <h3 id="where">When & Where</h3>
 {% assign inperson = "false" %}
