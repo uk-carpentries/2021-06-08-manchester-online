@@ -72,7 +72,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 </p>
   
 <h3 id="where">Audience</h3>
-The workshop is aimed at the University of Manchester's postgraduate students and research and other staff who develop software or analyse data as part of their work. You don't need to have any previous knowledge of the tools that will be presented at the workshop - this is an introductory-level course.
+The workshop is aimed at the University of Manchester's postgraduate students and research and other staff who develop software or deal with or analyse data as part of their work. You don't need to have any previous knowledge of the tools that will be presented at the workshop - this is an introductory-level course.
 
 <h3 id="where">When & Where</h3>
 The workshop will be run online over 4 half-days, from {{page.humandate}}, {{page.humantime}}. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download" target="_blank">download and install Zoom client</a> to connect with your instructors. The Zoom link to use for this event will be announced via email to registered participants.
