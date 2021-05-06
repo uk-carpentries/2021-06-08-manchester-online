@@ -159,8 +159,9 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 
 <div class="row">
 <!--  <div style="padding-left: 15px;">Before the workshop: please fill in the <a href="{{ site.pre_survey }}{{ site.github.project_title }}">pre-workshop survey</a></div>-->
+  {% assign startdate = {{page.humandate}} | date: '%s' %}
   <div class="col-md-6">
-    <h3>Day 1, 8 June 2021, {{page.humantime}}</h3>
+    <h3>Day 1, {{startdate}}, {{page.humantime}}</h3>
     <table class="table table-striped">
       <tr> <td><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></td> </tr>
     </table>
