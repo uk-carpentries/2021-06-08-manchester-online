@@ -168,13 +168,13 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
   <div class="col-md-6">
     <h3>Day 1, {{day1}}, {{page.humantime}} {{page.timezone}}</h3>
     <table class="table table-striped">
-      <tr> <td><a href="https://swcarpentry.github.io/shell-novice" target="_blank">Automating Tasks with shell</a></td> </tr>
+      <tr> <td><a href="https://librarycarpentry.org/lc-data-intro/">Introduction to Working with Data (Regular Expressions)</a></td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2, {{day2}}, {{page.humantime}} {{page.timezone}}</h3>
     <table class="table table-striped">
-      <tr> <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Building Programs with Python - Part 1</a></td> </tr>
+      <tr> <td><a href="https://librarycarpentry.org/lc-shell/" target="_blank">Automating tasks with UNIX Shell</a></td> </tr>
     </table>
   </div>
 </div>
@@ -182,13 +182,13 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
     <div class="col-md-6">
     <h3>Day 3, {{day3}}, {{page.humantime}} {{page.timezone}}</h3>
     <table class="table table-striped">
-      <tr> <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Building Programs with Python - Part 2</a></td> </tr>
+      <tr> <td><a href="https://librarycarpentry.org/lc-open-refine/" target="_blank">Data Cleaning with OpenRefine</a></td> </tr>
     </table>
   </div>
   <div class="col-md-6">
       <h3>Day 4, {{day4}}, {{page.humantime}} {{page.timezone}}</h3>
       <table class="table table-striped">
-        <tr> <td><a href="http://swcarpentry.github.io/git-novice" target="_blank">Version Control with Git</a></td> </tr>
+        <tr> <td><a href="https://librarycarpentry.org/lc-git/" target="_blank">Introduction to Git & GitHub</a></td> </tr>
       </table>
   </div>
 </div>
