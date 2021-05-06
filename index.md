@@ -56,25 +56,147 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endunless %}
 {% endif %}
 
-{% comment %}
-EVENTBRITE
+<h2 id="general">General Information</h2>
 
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
+<!--
+  INTRODUCTION
+
+  Edit the general explanatory paragraph below if you want to change
+  the pitch.
+-->
+
+<p>
+  The course is aimed at everyone who is
+  interested in becoming a better teacher. In particular, this training
+  is aimed at those who want to become <a href="{{ site.swc_site }}">Software Carpentry</a>,
+  <a href="{{ site.lc_site }}">Library Carpentry</a>, and <a href="{{ site.dc_site }}">Data Carpentry</a>
+  Instructors. You don't currently have to be an instructor or a
+  teacher to attend this workshop, but you do need to be willing and
+  committed to becoming one and to improving your teaching techniques.
+</p>
+
+<p>
+  <a href="{{ site.swc_site }}">Software Carpentry</a>,
+  <a href="{{ site.dc_site }}">Data Carpentry</a>, and 
+  <a href="{{ site.lc_site }}">Library Carpentry</a>'s mission is to
+  help scientists, researchers, and librarians get more research done in less time
+  and with less pain by teaching them basic lab skills for scientific
+  computing.  This hands-on two-day workshop covers the basics of
+  educational psychology and instructional design, and looks at how to
+  use these ideas in both intensive workshops and regular classes.
+</p>
+<p>
+  The workshop is a mix of lectures and hands-on lessons where you
+  practice giving a short lesson using approaches learned and
+  implement some of the teaching techniques which we will discuss.
+  This is training for teaching, not technical training; you do not
+  need any particular technical background, and we will not be
+  teaching that. This workshop is based on the constantly revised and
+  updated
+ <a href="{{ site.training_site }}">curriculum</a>.
+</p>
+
+<!--
+  LOCATION
+
+  This block displays the address and links to maps showing directions
+  if the latitude and longitude of the workshop have been set.  You
+  can use http://itouchmap.com/latlong.html to find the lat/long of an
+  address.
+  -->
+<h3 id="where">Where</h3>
+{% assign inperson = "false" %}
+{% for loc in page.locations %}
+
+{% capture online %}{{ loc.venue | downcase }}{% endcapture %}
+
+{% comment %}
+<h4>{{ loc.venue }}</h4>
 {% endcomment %}
-{% if page.eventbrite %}
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings or go directly to <a href="https://www.eventbrite.co.uk/preview?eid=114418532912/" target="_blank">EventBrite to register</a>.</strong>
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
+
+{% if online == "online" %}
+
+This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install Zoom client</a> to connect with your instructors. The link to use for this event will be announced via email to registered participants. <!--is <{{ loc.address }}>-->
+
+{% else %}
+{% assign inperson = "true" %}
+{{ loc.address }} {% if loc.latlng %} Get directions with
+    <a href="//www.openstreetmap.org/?mlat={{loc.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+    or
+    <a href="//maps.google.com/maps?q={{loc.latlng}}">Google Maps</a>. {% endif %}
+
 {% endif %}
+{% endfor %}
+
+{% if inperson == "true" %}
+
+<h4 id="accessibility">Accessibility</h4>
+
+We are committed to making this workshop
+accessible to everybody.
+The workshop organisers have checked that:
+
+<ul>
+  <li>The room is wheelchair / scooter accessible.</li>
+  <li>Accessible restrooms are available.</li>
+</ul>
+
+Materials will be provided in advance of the workshop and
+large-print handouts are available if needed by notifying the
+organizers in advance.  If we can help making learning easier for
+you (e.g. sign-language interpreters, lactation facilities) please
+please get in touch (using contact details below) and we will
+attempt to provide them.
+
+{% endif %}
+
+<h3>Registration</h3>
+Registration is free <a href="https://www.eventbrite.com/e/{{page.eventbrite}}" target="_blank">
+via EventBrite</a>. You will need a special code to register - please get in touch with 
+<a href='mailto:{{contact}}'>Aleksandra Nenadic</a> to apply for the training. Priority will be given to participants 
+from UK institutions that __do not__ have a partnership with The Carpentries, so cannot get onto Instructor Training 
+as part of their institutional membership. 
+
+<h3>Requirements</h3>
+
+Participants will need a laptop to attend the workshop (rather than a tablet) as they will be 
+asked to share their screen and do a short teaching or live coding demonstration during the workshop exercises.
+
+Please note that after this course is over, you will be asked to do
+three short follow-up exercises online in order to finish qualifying
+as an instructor: the details are available at
+<a href="{{ site.training_site }}/checkout/">{{ site.training_site }}/checkout/</a>.
+If you have any questions about the workshop, the reading material,
+or anything else, please get in touch or ask at the workshop.
+
+
+<h3>Code of Conduct</h3>
+
+All participants (including instructors, helpers and observers) are required to abide by The Carpentries <a href="{{
+site.swc_site }}/conduct/">Code of Conduct</a>.
+
+
+<h3 id="contact">Contact</h3>
+<p>
+Please email
+{% if page.contact %}
+  {% for contact in page.contact %}
+    {% if forloop.last and page.contact.size > 1 %}
+      or
+    {% else %}
+      {% unless forloop.first %}
+      ,
+      {% endunless %}
+    {% endif %}
+    <a href='mailto:{{contact}}'>{{contact}}</a>
+  {% endfor %}
+{% else %}
+  to-be-announced
+{% endif %}
+for more information.
+</p>
+
+<hr/>
 
 <h2 id="general">General Information</h2>
 
