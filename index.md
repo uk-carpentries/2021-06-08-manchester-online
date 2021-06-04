@@ -253,4 +253,29 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+<h2 id="setup-uom">Setup instructions specific to University of Manchester staff</h2>
+<p>Further to the above setup instructions, we would like to provide you with some extra suggestions, specific to University of Manchester managed-desktop machines (i.e. your Windows 10 work laptop).</p>
 
+  <h3>OpenRefine</h3>
+  <ol>
+    <li>If you do not have administrator rights, you can still install OpenRefine to your local hard drive (<b>‘This PC’ &gt; ‘OS (C:)’ &gt; ‘Work’</b>).</li>
+    <li>OpenRefine will not work if you install it to a network drive such as your P: drive.</li>
+    <li>Download the <a href="https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-3.4.1.zip" target="_blank">Windows kit</a>, a file called ‘<b>openrefine-win-3.4.1.zip</b>’.</li>
+    <li>Move the file from ‘Downloads’ to your local hard drive (<b>‘This PC’ &gt; ‘OS (C:)’ &gt;> ‘Work’</b>).</li>
+    <li>Unzip the file: Right-click on the file, choose ‘<b>7-Zip</b>’ then ‘<b>Extract Here</b>’. </li>
+    <li>Open the new folder ‘<b>openrefine-win-3.4.1</b>’ then double-click ‘<b>openrefine</b>’ with the blue gem icon.</li>
+    <li>OpenRefine will run in the background, you must leave it open. Wait for a new tab to open automatically in your browser at <a href="http://127.0.0.1:3333">http://127.0.0.1:3333/</a>.</li>
+    <li>If for some reason your computer does not have Java JRE, you can install that from the Software Center, or replace the file in step 3 with the <a href="https://github.com/OpenRefine/OpenRefine/releases/download/3.5-beta1/openrefine-win-with-java-3.5-beta1.zip" target="_blank">Windows kit with embedded Java</a>.</li>
+  </ol>
+
+  <h3>Git and Shell</h3>
+  <ol>
+    <li>For the Git and Shell lessons, we suggest you install ‘<b>Git 2.22.0</b>’ from the Software Center. It includes a program called Git Bash.</li>
+    <li>Click on the Windows Start button then ‘<b>Software Center</b>’ should appear on the right. (It may also be on the desktop.)</li>
+    <li>In the ‘<b>Applications</b>’ tab, go to the search box on the right and type ‘<b>git</b>’ then press Enter.</li>
+    <li>Click on the result ‘<b>Git 2.22.0</b>’.</li>
+    <li>Click the ‘<b>Install</b>’ button.</li>
+    <li>When it has installed, go back to the Start menu and scroll to the ‘G’ section. In the ‘<b>Git</b>’ folder, click ‘<b>Git Bash</b>’.</li>
+    <li>This is our command shell where we can type commands to interact with the files on our computer and with the GitHub server.</li>
+    <li>(TBC) we will not be using the alternative software ‘<b>GitHub Desktop 2.5.4</b>’ in this workshop though we may mention it for your future use.</li>
+  </ol>
